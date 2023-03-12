@@ -1,0 +1,432 @@
+body {
+    color: #efefef !important;
+    background: #232227 !important;
+}
+
+section.firstpart {
+    background: #232227 !important;
+}
+
+section.secondpart {
+    background: #000000;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    position: relative;
+    border: none;
+    background-color: #232227;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.nav>.icons {
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+}
+
+.nav>.icons>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav>.nav-links>a {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+}
+
+.nav>.nav-links>a.links:hover {
+    opacity: 1;
+}
+
+.nav>.nav-links>a.links::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background: #FF3F62;
+    border-radius: 200px;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 100%;
+}
+
+
+.nav>#nav-check {
+    display: none;
+}
+
+div.logo {
+    background: #36343F;
+    border-radius: 40px;
+    transform: rotate(-90deg);
+    height: 67px;
+    width: 110px;
+    position: relative;
+    top: -20px;
+}
+
+img.skateLogo {
+    width: 80.35px;
+    height: 40.39px;
+    transform: rotate(100.62deg);
+    position: relative;
+    left: -10px;
+    top: 23px;
+}
+
+
+
+.nav .search-box i {
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav .cart-box i {
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav .user-box i {
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.skateintro {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.learn {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FF3F62;
+}
+
+.big {
+    font-weight: 600;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.cover {
+    background: #FF3F62;
+    border-radius: 3px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+
+.contact {
+    background: #FEAA00;
+    border-radius: 100px;
+    border: 1px solid #FEAA00;
+    height: 50px;
+    width: 100px;
+}
+
+.secondpart {
+    background-image: url(../img/Frame\ 4.png);
+    background-position: 200px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.imglo {
+    position: relative;
+    top: -400px;
+    left: 350px;
+}
+
+div.spec {
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: -250px;
+    top: -180px;
+}
+
+.iconback {
+    background: #36343F;
+    border-radius: 220px;
+    width: 145px;
+    text-align: center;
+    height: 177px;
+}
+
+.iconcolor {
+    position: relative;
+    left: 8px;
+}
+
+.elipse1 {
+    margin-left: -50px;
+}
+
+.iconpink {
+    position: relative;
+    left: 8px;
+}
+
+.elipse2 {
+    margin-left: -50px;
+}
+
+.icondimension {
+    position: relative;
+    left: 8px;
+}
+
+.elipse3 {
+    margin-left: -40px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.color {
+    font-weight: 400;
+    font-size: 13px;
+    color: #8C8B8D;
+}
+
+div.specmob {
+    display: none;
+}
+
+div.brands {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    left: -80px;
+    position: relative;
+}
+
+div.sponsors {
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.tabmobspace {
+    display: none;
+}
+
+.tabspecial {
+    display: none;
+}
+
+.servicehead {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FF3F62;
+}
+
+.best {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 700;
+}
+
+.servicebrief {
+    text-align: center;
+}
+
+div.services {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+div.services div img {
+    width: 200px;
+    height: 275px;
+}
+
+div.owl-nav {
+    text-align: center;
+    word-spacing: 20px;
+}
+
+div.owl-dots {
+    display: none;
+}
+
+button.owl-prev {
+    text-align: center;
+    font-size: 40px !important;
+}
+
+button.owl-next {
+    text-align: center;
+    font-size: 40px !important;
+}
+
+div.card {
+    color: black;
+    background: #000000 !important;
+    border-radius: 5px;
+    border-color: #36343F;
+}
+
+img.people {
+    width: 263.5px;
+    height: 345px;
+    background: #36343F;
+}
+
+.mentorname {
+    margin-left: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.post {
+    margin-left: 9px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.heart {
+    width: 35px !important;
+    position: relative;
+    left: 20px;
+    top: 12px;
+}
+
+div.badge {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.badgeicon {
+    color: #FF3F62;
+    font-size: 55px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.emphasis {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.closing {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.join {
+    background: #FEAA00;
+    border-radius: 100px;
+    border: 1px solid #FEAA00;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.joinbtn {
+    text-align: center;
+}
