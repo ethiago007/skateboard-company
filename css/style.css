@@ -194,7 +194,7 @@ img.skateLogo {
     border: 1px solid #FEAA00;
     height: 50px;
     width: 100px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .secondpart {
@@ -426,7 +426,7 @@ div.badge {
     height: 50px;
     width: 100px;
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .joinbtn {
